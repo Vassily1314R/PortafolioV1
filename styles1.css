@@ -218,3 +218,224 @@ hr {
 strong {
   color: black;
 }
+
+/* Reset de estilo */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  list-style: none;
+  color: #3dc2ec;
+}
+
+/* Nuevo estilo */
+
+body {
+  background-color: #402e7a;
+  color: #3dc2ec;
+  flex-direction: column;
+  padding: 1em;
+}
+
+/* Estilo del header */
+
+header {
+  text-align: end;
+}
+
+.navegation-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.nav-item {
+  margin-right: 25px;
+  margin-top: 8px;
+}
+
+.a-item:hover {
+  transition: 0.1s;
+  color: white;
+  font-weight: 700;
+}
+
+/* Barra izquierda links social media y whatsapp */
+
+.whatsapp {
+  position: fixed;
+  left: 25px;
+  top: 20px;
+}
+
+.wh {
+  width: 35px;
+  height: 35px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media-box {
+  position: fixed;
+  left: 25px;
+
+  bottom: 1px;
+  justify-content: center;
+}
+
+.social-media-list-item {
+  margin-bottom: 15px;
+}
+
+.social-media-span {
+  display: flex;
+  font-size: 10px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.logos {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.mail {
+  display: flex;
+}
+
+.div-mail {
+  display: flex;
+}
+
+.mailto {
+  font-size: 12px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+
+  position: fixed;
+  right: 40px;
+  bottom: 5px;
+}
+
+.mailto:hover {
+  transition: 0.3s;
+  color: white;
+  font-size: 13px;
+}
+
+/* Estilo de mi seccion de bienvenida */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 7em 15px 8em;
+  align-items: start;
+}
+
+h3 {
+  font-size: 36px;
+  margin-top: 1em;
+  margin-left: 20px;
+  text-shadow: 2px 2px 2px grey;
+  color: #4b70f5;
+}
+
+h2 {
+  font-size: 38px;
+  margin-bottom: 1em;
+  margin-left: 20px;
+  text-shadow: 2px 2px 2px black;
+  color: white;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 20px;
+  margin: 10px 10px;
+}
+
+label:hover {
+  text-shadow: 2px 2px 2px black;
+}
+
+.inputs {
+  border-radius: 5px;
+  color: black;
+  padding: 5px;
+  padding-right: 10em;
+  background-color: rgb(232, 232, 232, 0.8);
+}
+
+.inputs:hover {
+  background-color: rgb(232, 232, 232, 1);
+}
+
+button {
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: rgb(76, 59, 207, 0.8);
+  color: #3dc2ec;
+  margin: 30px 600px 5px 300px;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: rgb(76, 59, 207);
+  font-weight: 700;
+}
+
+hr {
+  margin: 0px 7em 15px 8em;
+}
+
+/* Estilos para comentarios realizados */
+
+.section-comemts {
+  display: flex;
+}
+
+.coments-div {
+  margin: 0px 7em 15px 8em;
+  display: flex;
+}
+
+.list-coments {
+  list-style: none;
+  padding: 0px;
+  margin: 0em 7em 0em 8em;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.coments-items {
+  background-color: rgb(232, 232, 232, 0.5);
+  margin: 8px;
+  padding: 10px;
+  padding-right: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  color: black;
+  font-size: 14px;
+}
+
+.coments-items:hover {
+  background-color: rgb(232, 232, 232, 0.8);
+}
+
+strong {
+  color: black;
+}
