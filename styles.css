@@ -58,14 +58,11 @@ header {
 .social-media {
   display: flex;
   flex-direction: column;
-
-  /* margin-right: 8em; */
 }
 
 .social-media-box {
   position: fixed;
   left: 25px;
-  /* width: 300px; */
   bottom: 1px;
   justify-content: center;
 }
@@ -98,11 +95,9 @@ header {
 }
 
 .mailto {
-  /* transform: rotate(90deg); */
   font-size: 12px;
   writing-mode: vertical-rl;
   text-orientation: upright;
-  /* display: inline-block; */
   position: fixed;
   right: 40px;
   bottom: 5px;
@@ -137,7 +132,6 @@ header {
 .introduction-h1:hover {
   transition: 0.3s;
   transform: scale(1.1);
-  /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
 }
 
 .introduction-h2 {
@@ -147,7 +141,7 @@ header {
 }
 
 .introduction-p {
-  font-size: 18px;
+  font-size: 22px;
   padding-right: 16em;
   padding-top: 10px;
   text-align: left;
@@ -176,7 +170,7 @@ header {
 }
 
 .experiencias-p {
-  font-size: 17px;
+  font-size: 22px;
   text-align: justify;
 }
 

@@ -117,10 +117,11 @@ header {
   display: flex;
   flex-direction: column;
   margin: 0px 7em 15px 8em;
+  align-items: start;
 }
 
 h3 {
-  font-size: 32px;
+  font-size: 36px;
   margin-top: 1em;
   margin-left: 20px;
   text-shadow: 2px 2px 2px grey;
@@ -145,10 +146,15 @@ label {
   margin: 10px 10px;
 }
 
+label:hover {
+  text-shadow: 2px 2px 2px black;
+}
+
 .inputs {
   border-radius: 5px;
   color: black;
   padding: 5px;
+  padding-right: 10em;
   background-color: rgb(232, 232, 232, 0.8);
 }
 
@@ -156,19 +162,19 @@ label {
   background-color: rgb(232, 232, 232, 1);
 }
 
-/* input {
+button {
+  font-size: 20px;
   border-radius: 5px;
-  color: black;
-  padding: 5px;
-  background-color: rgb(232, 232, 232, 0.8);
+  background-color: rgb(76, 59, 207, 0.8);
+  color: #3dc2ec;
+  margin: 30px 600px 5px 300px;
+  padding: 10px;
 }
 
-textarea {
-  border-radius: 5px;
-  color: black;
-  padding: 5px;
-  background-color: rgb(232, 232, 232, 0.8);
-} */
+button:hover {
+  background-color: rgb(76, 59, 207);
+  font-weight: 700;
+}
 
 hr {
   margin: 0px 7em 15px 8em;
@@ -182,18 +188,22 @@ hr {
 
 .coments-div {
   margin: 0px 7em 15px 8em;
+  display: flex;
 }
 
 .list-coments {
   list-style: none;
   padding: 0px;
-  margin: 0px 7em 15px 8em;
+  margin: 0em 7em 0em 8em;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .coments-items {
   background-color: rgb(232, 232, 232, 0.5);
-  margin: 15px 0;
+  margin: 8px;
   padding: 10px;
+  padding-right: 15px;
   border: 1px solid #ddd;
   border-radius: 4px;
   cursor: pointer;
@@ -203,4 +213,8 @@ hr {
 
 .coments-items:hover {
   background-color: rgb(232, 232, 232, 0.8);
+}
+
+strong {
+  color: black;
 }
